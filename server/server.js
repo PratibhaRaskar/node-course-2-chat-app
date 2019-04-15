@@ -10,6 +10,6 @@ app.use(express.static(PublicPath));
 
 app.listen(3000,()=>{
   console.log(`server is up on port ${port}`);
-})
+});
 
 //console.log(PublicPath);
